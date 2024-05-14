@@ -10,11 +10,12 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark" style="height: 100%;">
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-none">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button
@@ -78,11 +79,85 @@
           </div>
         </nav>
       </div>
+      <div class="conatiner  ">
+        <h1 class="text-center text-light ">about me</h1>
+        <p class="text-light d-flex justify-content-center w-50 ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit id et
+          placeat eaque, est incidunt ex amet. Et odit ex dicta quis eum!
+          Similique optio illo quia, quasi nisi neque. Voluptatibus molestias
+          ipsa dolorem tempora facere, expedita odit adipisci illum quis, itaque
+          eligendi ullam enim qui temporibus, nobis sed tenetur est fuga odio
+          error obcaecati magni. Officiis, quo. Natus, ullam. Expedita et esse
+          libero obcaecati nostrum at blanditiis illo voluptas? Enim autem
+          itaque, cum reprehenderit aliquam provident. Est necessitatibus ab
+          delectus impedit ratione, in expedita excepturi, culpa natus et
+          laborum!
+        </p>
+      </div>
+      <div class="container mt-5">
+        <h1 class="text-center text-light">projects</h1>
+        <div class="cards d-flex justify-content-evenly mb-5">
+          <div class="card" style="width: 18rem" data-aos="fade-down-right">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem" data-aos="fade-down-left">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="cards d-flex justify-content-evenly">
+          <div class="card" style="width: 18rem" data-aos="slide-right">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem" data-aos="slide-left">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        delay: 500,
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
